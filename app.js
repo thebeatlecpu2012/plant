@@ -53,7 +53,7 @@ function googleAnalyticsMiddleware(data) {
 }
 
 var unblockerConfig = {
-    prefix: '/khan-academy/',
+    prefix: '/textbooks/',
     responseMiddleware: [
         googleAnalyticsMiddleware
     ]
